@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
+#include <fcntl.h>
+#include <string.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <unistd.h>
 void black() {
 	printf("\033[0;30m");
 } 
@@ -71,7 +76,7 @@ void colorize_file(char *file_name){
 }
 int main () {
   	srand(time(NULL));
-  	colorize_file("/root/conf/prompt");
+  	colorize_file("/Users/n132/conf/prompt");
 	printf("\n");
   	return 0;
 }
