@@ -5,7 +5,7 @@ Cooler work has been done at [`lolcat`](https://github.com/busyloop/lolcat). So 
 
 # Linux
 ```sh
-sudo apt install lolcat
+sudo apt update -y && sudo apt install lolcat -y
 echo "edit ~/.config/prompt to change the graph" > ~/.config/prompt
 echo "\nlolcat ~/.config/prompt" >> ~/.zshrc
 ```
