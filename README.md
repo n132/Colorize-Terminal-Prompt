@@ -8,5 +8,5 @@ Cooler work has been done at [`lolcat`](https://github.com/busyloop/lolcat). So 
 sudo apt update -y && sudo apt install lolcat -y
 mkdir ~/.config 
 echo "edit ~/.config/prompt to change the graph" > ~/.config/prompt
-echo "\nlolcat ~/.config/prompt" >> ~/.zshrc
+echo "lolcat ~/.config/prompt" >> ~/.zshrc
 ```
